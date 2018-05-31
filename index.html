@@ -1,0 +1,58 @@
+<html>
+	<head> 
+		<title>Menu Desplegable</title>
+		<style type="text/css">
+//TITULO DEL FORMULARIO
+					
+			* {
+				margin:100px;	
+				padding:100px;
+			}
+			
+			#header {
+				margin:auto;
+				width:900px;
+				font-family:Arial, times new roman, sans-serif;
+			}
+
+			.titulo{
+				width: 30%;
+				height: 20%;
+				margin-top: 5%;
+				margin-left: 35%;
+				text-align: center;
+				font-size: 25px;
+			}
+
+			.login{
+				width: 30%;
+				margin-left: 35%;
+				margin-top: 2%;
+			}
+
+			.login input{
+				font-size: 25px;
+				width: 100%;
+				text-align: center;
+				margin-top: 1%;
+			}
+		</style>
+	</head>
+	<body bgcolor="D2D8E2">	
+		<div class="titulo">
+			<h1>BIENVENIDO</h1>
+			<h2>Ingrese sus Credenciales</h2>
+		</div>
+		<div class="login">
+			<form action="loginIngreso.php" method="post">
+				<input type="text" name="usuario" placeholder="Usuario">
+				<br>
+				<input type="password" name="password" placeholder="Password">
+				<br>
+				<input type="submit" value="Ingresar">
+			</form>	
+		</div>
+		
+	</body>
+</html>
+
